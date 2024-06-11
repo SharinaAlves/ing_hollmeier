@@ -212,7 +212,7 @@ h3 {
 #funding {
   background-color: var(--color2);
   text-align: center;
-  padding: 80px;
+  padding-top: 80px;
 }
 
 .icon-card {
@@ -232,9 +232,10 @@ h3 {
 .card-container {
   display: flex;
   flex-direction: row;
-  width: 1000px;
+  width: 100vw;
   align-items: center;
   margin: 0 auto;
+    flex-wrap: wrap;
 }
 @media(max-width: 610px){
   .card-container {
