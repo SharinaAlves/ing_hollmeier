@@ -191,6 +191,10 @@ h3 {
 }
 .right {
   padding: 80px;
+    line-height:130%;
+    li::marker {
+      color: var(--color3);
+    }
 }
 @media(max-width: 610px){
   .half {
