@@ -278,3 +278,8 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.data-protection {
+  padding: 75px 10vw;
+  text-align: justify;
+}
