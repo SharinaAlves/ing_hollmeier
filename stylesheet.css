@@ -197,7 +197,7 @@ h3 {
       color: var(--color3);
     }
 }
-@media(max-width: 610px){
+@media(max-width: 768px){
   .half {
     width: 100vw;
     img {
