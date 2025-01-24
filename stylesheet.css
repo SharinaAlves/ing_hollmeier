@@ -48,6 +48,10 @@ h3 {
   text-align: center;
 }
 
+a {
+  color: var(--color1);
+}
+
 .underline-small{
   display:inline-block;
   position:relative;
