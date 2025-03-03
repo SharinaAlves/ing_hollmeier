@@ -270,6 +270,11 @@ a {
   padding-top: 80px;
 }
 
+.contact-container {
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
 footer {
   color: grey;
   display: flex;
