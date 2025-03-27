@@ -176,22 +176,6 @@ a {
   display: flex;
   flex-direction: row;
 }
-@media(max-width: 768px){
-  #aboutus {
-    display: flex;
-    flex-direction: column;
-  }
-.half {
-    width: 100vw;
-    img {
-      width: 100vw;
-        }
-      }
-      .right {
-        padding: 80px 20px 40px 40px;
-      }
-    }
-
 .half {
   width: 50vw;
   text-align: left;
@@ -200,6 +184,20 @@ a {
     width: 50vw;
   }
 }
+
+@media(max-width: 768px){
+  #aboutus {
+    display: flex;
+    flex-direction: column;
+  }
+  .half {
+    width: 100vw;
+  img {
+    width: 100vw;
+    }
+  }
+}
+
 .right {
   padding: 80px;
     line-height:130%;
