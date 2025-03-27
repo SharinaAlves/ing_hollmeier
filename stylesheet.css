@@ -184,6 +184,13 @@ a {
     width: 50vw;
   }
 }
+.right {
+  padding: 80px;
+    line-height:130%;
+    li::marker {
+      color: var(--color3);
+    }
+}
 
 @media(max-width: 768px){
   #aboutus {
@@ -196,14 +203,9 @@ a {
     width: 100vw;
     }
   }
-}
-
-.right {
-  padding: 80px;
-    line-height:130%;
-    li::marker {
-      color: var(--color3);
-    }
+    .right {
+    padding: 50px;
+  }
 }
 
 #network {
